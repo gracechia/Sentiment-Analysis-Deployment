@@ -56,7 +56,7 @@ def predict():
         if pred == 1:
             output = "Negative"
         else:
-            output = "Postive"
+            output = "Positive"
 
         return render_template('index.html', prediction_text='{} sentiment predicted'.format(output))
         
